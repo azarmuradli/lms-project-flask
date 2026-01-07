@@ -18,7 +18,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173", 
         "http://localhost:3000",
-        "https://lms-project-flask-kohl.vercel.app",  # Add your Vercel domain
+        "https://lms-project-fastapi-kohl.vercel.app", 
         "https://*.vercel.app"  # Allow all Vercel preview deployments
     ],
     allow_credentials=True,

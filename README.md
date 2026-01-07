@@ -2,9 +2,9 @@
 
 ## Live Demo
 
-**Frontend:** https://lms-project-flask-kohl.vercel.app  
-**Backend API:** https://lms-project-flask-production.up.railway.app  
-**API Documentation:** https://lms-project-flask-production.up.railway.app/docs
+**Frontend:** https://lms-project-fastapi-kohl.vercel.app  
+**Backend API:** https://lms-project-fastapi-production.up.railway.app  
+**API Documentation:** https://lms-project-fastapi-production.up.railway.app/docs
 
 ### Test Credentials
 

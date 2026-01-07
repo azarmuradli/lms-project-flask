@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://lms-project-flask-production.up.railway.app/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://lms-project-fastapi-production.up.railway.app/api',
 });
 
 // Add token to requests automatically
