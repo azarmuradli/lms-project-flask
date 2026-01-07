@@ -1,8 +1,25 @@
 # Learning Management System (LMS)
 
-A full-stack Learning Management System with role-based access for teachers and students, featuring subject management, task creation, solution submission, and evaluation.
+## Live Demo
+
+**Frontend:** https://lms-project-flask-kohl.vercel.app  
+**Backend API:** https://lms-project-flask-production.up.railway.app  
+**API Documentation:** https://lms-project-flask-production.up.railway.app/docs
+
+### Test Credentials
+
+**Teacher Account:**
+- Email: `teacher1@test.com`
+- Password: `teacher123`
+
+**Student Account:**
+- Register a new account via the application
+
+---
 
 ## Overview
+
+A full-stack Learning Management System with role-based access for teachers and students, featuring subject management, task creation, solution submission, and evaluation.
 
 This LMS allows:
 - **Teachers** to create subjects, assign tasks, and evaluate student submissions
@@ -28,7 +45,7 @@ lms/
 ### Backend
 - FastAPI
 - SQLAlchemy 2.0
-- SQLite (development) / PostgreSQL (production)
+- PostgreSQL (production) / SQLite (development)
 - JWT Authentication
 - Python 3.10+
 
@@ -123,10 +140,10 @@ Once the backend is running, access:
 ## Deployment
 
 ### Backend
-Deploy to Railway, Render, or Heroku with PostgreSQL database.
+Deployed to Railway with PostgreSQL database.
 
 ### Frontend
-Deploy to Vercel or Netlify.
+Deployed to Vercel.
 
 See individual README files for detailed deployment instructions.
 
